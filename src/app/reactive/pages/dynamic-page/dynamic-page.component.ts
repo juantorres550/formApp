@@ -63,7 +63,7 @@ export class DynamicPageComponent {
     this.newFavorite.reset();
   }
 
-  onDelereFavorite(index: number): void {
+  onDeleteFavorite(index: number): void {
     this.favoriteGames.removeAt(index);
   }
 
